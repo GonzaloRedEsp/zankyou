@@ -140,7 +140,7 @@
 	} 
 	else 
 	{
-		$wordResult = substr($wordResult, 1);
+		$wordResult = $startWord . $wordResult;		
 		$gameWordArray = explode(";", $wordResult);
 	}
 	$response = array(
