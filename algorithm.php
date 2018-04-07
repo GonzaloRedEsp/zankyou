@@ -106,7 +106,7 @@
 	*/
 	$language = $_GET["lang"];
 	$dictionary_in ="words_dictionary.json";
-	$dictionary_json = file_get_contents("dictionary/".$language."/".$dictionary_in);
+	$dictionary_json = file_get_contents("dic/".$language."/".$dictionary_in);
 	$dictionary = json_decode( $dictionary_json, true);
 	
 
